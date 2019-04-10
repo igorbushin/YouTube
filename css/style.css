@@ -28,7 +28,6 @@ body.night {
 
 [data-slide].slide-active {
     opacity: 1;
-    margin-bottom: 30px
 }
 
 .search {
@@ -140,7 +139,8 @@ body.night {
 .header__item {
     display: flex;
     align-items: center;
-    margin-right: 35px
+    margin-right: 35px;
+    margin-bottom: 10px
 }
 
 .header__item-switch {

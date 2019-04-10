@@ -24,7 +24,7 @@ function showHeaderMenu(show) {
     const box = document.querySelector('[data-slide="nav"]');
     const boxContent = document.querySelector('.header__menu');
     if (show) {
-        box.style.height = boxContent.clientHeight + 'px';
+        box.style.height = '80px';
         box.classList.add('slide-active');
     }
     else {
