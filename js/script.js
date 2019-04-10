@@ -109,7 +109,7 @@ function bindNewModal(card) {
     });
 }
 modal.addEventListener('click', (e) => {
-    if(!e.target.classList.contains('modal')) {
+    if(!e.target.classList.contains('modal__body')) {
         closeModal();
     }
 });
