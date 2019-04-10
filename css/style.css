@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    transition: .5s all
 }
 
 body.night {
@@ -12,7 +11,7 @@ body.night {
 }
 
 .logo img {
-    width: 130px
+    width: 50px;
 }
 
 .hamburger {
@@ -150,6 +149,7 @@ body.night {
 }
 
 .header__item-descr {
+    color: white;
     font-weight: 500
 }
 
@@ -196,7 +196,7 @@ hr {
     font-size: 16px
 }
 
-.videos__item-views {
+.videos__item-chann {
     font-size: 14px;
     opacity: .5
 }
@@ -205,26 +205,6 @@ hr {
     opacity: 0;
     -webkit-transform: translateY(50px);
     transform: translateY(50px)
-}
-
-.more {
-    display: block;
-    width: 180px;
-    height: 40px;
-    margin: 0 auto;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    background-color: #ec2027;
-    border-radius: 4px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, .25);
-    color: #fff;
-    font-weight: 500;
-    font-size: 18px
-}
-
-.more:focus {
-    outline: 0
 }
 
 .modal {
