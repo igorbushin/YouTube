@@ -35,14 +35,14 @@ function showHeaderMenu(show) {
 function bindSlideToggle(content, openClass) {
     let button = {
         'element': document.querySelector('.hamburger'),
-        'active': true
+        'active': false
     };
     button.element.addEventListener('click', () => {
         button.active = !button.active;
         showHeaderMenu(button.active);
     });
 }
-showHeaderMenu(true);
+showHeaderMenu(false);
 bindSlideToggle();
 
 /** Логика смены темы */
@@ -109,7 +109,7 @@ function bindNewModal(card) {
     });
 }
 modal.addEventListener('click', (e) => {
-    if(!e.target.classList.contains('modal__body')) {
+    if(!e.target.classList.contains('modal')) {
         closeModal();
     }
 });
