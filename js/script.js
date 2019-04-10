@@ -46,7 +46,7 @@ showHeaderMenu(true);
 bindSlideToggle();
 
 /** Логика смены темы */
-let nightMode = true;
+let nightMode = false;
 function updateMode() {
     if(nightMode === true) {
         document.body.classList.add('night');
