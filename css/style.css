@@ -63,8 +63,6 @@ body.night {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 100vw;
-  height: 75vw;
   background-color: #fff;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);

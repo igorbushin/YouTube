@@ -6,8 +6,8 @@ const videosWrapper = document.querySelector('.videos_wrapper');
 let player;
 function onYouTubeIframeAPIReady() {
     player = new YT.Player('frame', {
-      height: '100%',
-      width: '100%'
+      height: '80%',
+      width: '80%'
     });
 }
 function createVideo() {
